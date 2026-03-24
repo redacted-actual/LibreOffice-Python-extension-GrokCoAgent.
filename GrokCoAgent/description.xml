@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<description xmlns="http://openoffice.org/extensions/description/2006">
+    <identifier>org.grokcoagent.main</identifier>
+    <version>1.0</version>
+    <display-name xml:lang="en">GrokCoAgent</display-name>
+    <description xml:lang="en">Full-suite AI agent for workflow automation and human-AI co-creation. Powered by xAI Grok.</description>
+</description>
