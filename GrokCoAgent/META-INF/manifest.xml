@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest:manifest xmlns:manifest="http://openoffice.org/2001/manifest">
+    <manifest:identifier value="org.grokcoagent.main"/>
+    <manifest:version value="1.0"/>
+    <manifest:display-name>
+        <manifest:display-name xml:lang="en">GrokCoAgent - AI Agentic Workflow & Co-Creation</manifest:display-name>
+    </manifest:display-name>
+    <manifest:description>
+        <manifest:description xml:lang="en">Agentic AI automation and co-creation across Writer, Calc, Impress, Draw using xAI Grok.</manifest:description>
+    </manifest:description>
+    <manifest:dependencies/>
+    <manifest:library filter="filter">
+        <manifest:spec identifier="org.grokcoagent.main" version="1.0"/>
+    </manifest:library>
+    <manifest:activation>
+        <manifest:component>
+            <manifest:implementation name="GrokCoAgentJob" class-name="GrokCoAgentJob"/>
+            <manifest:service name="com.sun.star.task.Job"/>
+        </manifest:component>
+    </manifest:activation>
+</manifest:manifest>
